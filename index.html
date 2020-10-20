@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bootstrap Project - 2</title>
+    <!--Favicon Link-up-->
+    <link rel="shortcut icon" href="img/logo-aks.jpg" type="image/x-icon">
+    <!--Bootstrap Css Link Up-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Fontawesome CDN Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Custom Css-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" style="background: #fab7b7;">
+        <div class="container">
+            <a href="#showcase" class="navbar-brand">
+                <img src="img/logo-aks-removebg-preview.png" alt="AKS" class="img-fluid" width="50" height="50">
+                <h2 class="d-inline align-middle text-light">Arif Khan Saimoon</h2>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                   <li class="nav-item"><a href="#showcase" class="nav-link">Home</a></li> 
+                   <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li> 
+                   <li class="nav-item"><a href="#author" class="nav-link">Author</a></li> 
+                   <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Showcase-->
+    <section id="showcase" class="pt-5 mt-5 text-center">
+        <div class="primary-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 text-light">
+                        <h2 class="display-1 mt-5 pt-5">Do What You Want...</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, laudantium?</p>
+                        <a href="#" class="btn btn-outline-light btn-lg"><i class="fa fa-arrow-right"></i> Read More</a>
+                    </div>
+                    <div class="col-lg-6 pt-5 d-none d-lg-block">
+                        <img src="img/person-touching.jpg" alt="" class="img-fluid h-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!--Subscribe Section-->  
+    <section class="subscribe bg-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="form-group mb-0">
+                        <input type="text" placeholder="Name" class="form-control form-control-lg">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 py-4 py-lg-0">
+                    <div class="form-group mb-0">
+                        <input type="email" placeholder="Email" class="form-control form-control-lg">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <button class="btn btn-outline-light btn-lg btn-block">
+                        <i class="fa fa-envelope-open"></i> Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Box Section-->
+    <section class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-3">
+                    <div class="card border-praimary">
+                        <div class="card-body">
+                            <h2>Be Creative</h2>
+                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, eaque.</p>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-praimary box-bg">
+                        <div class="card-body">
+                            <h2>Be Confident</h2>
+                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, eaque.</p>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-praimary">
+                        <div class="card-body">
+                            <h2>Be Stronger</h2>
+                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, eaque.</p>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-praimary box-bg">
+                        <div class="card-body ">
+                            <h2>Be Sharper</h2>
+                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, eaque.</p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section-->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="info-work">
+                        <h2 class="display-4">Why You Like this Profession</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa earum maiores aliquid esse corporis nostrum omnis molestias, rem quasi cum!<p>                        
+                    </div>
+                    <!--Accordion-->
+                    <div id="accordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header" role="tab">
+                                <h5 class="mb-0">
+                                    <div data-toggle="collapse" href="#collapse1">
+                                        <i class="fa fa-arrow-circle-down"></i> Gain Lots Of Money
+                                    </div>
+                                </h5>
+                            </div>
+                            <div id="collapse1" class="collapse show" data-parent="#accordion">
+                               <div class="card-body">
+                                   <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam praesentium modi mollitia voluptatum accusantium ex repellendus cupiditate voluptate! Quidem, tempora? Sunt commodi praesentium incidunt explicabo tenetur unde in, libero quia.</p>
+                               </div> 
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab">
+                                <h5 class="mb-0">
+                                    <div data-toggle="collapse" href="#collapse2">
+                                        <i class="fa fa-arrow-circle-down"></i> Gain Knowledge About Digital World 
+                                    </div>
+                                </h5>
+                            </div>
+                            <div id="collapse2" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga reiciendis nemo rem impedit voluptate unde inventore, voluptatum nisi ducimus reprehenderit? Dolorem laboriosam repellendus possimus, unde fugit necessitatibus quia sequi quo.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" role="tab">
+                                <h5 class="mb-0">
+                                    <div data-toggle="collapse" href="#collapse3">
+                                        <i class="fa fa-arrow-circle-down"></i> And Live A Prosperous Life
+                                    </div>
+                                </h5>
+                            </div>
+                            <div id="collapse3" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit numquam, atque harum magnam repellendus maxime itaque hic, nobis quis perferendis vero voluptates explicabo? Harum, aut.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Author Section-->
+    <section id="author" class="text-center my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="info-author">
+                        <h2 class="display-4">Our Experts Team</h2>
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quis odio eveniet cum. Itaque minus quia, distinctio consectetur quam rem, inventore laboriosam deserunt ab eum maiores. Quod quidem ea quas!</p>                        
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <img src="img/Arif-Khan.jpg" alt="Arif Khan Saimoon" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Arif Khan</h3>
+                            <h5>Lead Web Design&Developer</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit culpa deleniti impedit placeat suscipit nulla?</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-facebook"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-twitter"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-linkedin"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-instagram"></i>
+                                    </div>
+                                </a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <img src="img/nazmul.jpg" alt="Niyon Nazmul" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Niyon Nazmul</h3>
+                            <h5>Co-Web Design&Developer</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit culpa deleniti impedit placeat suscipit nulla?Sit culpa deleniti</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-facebook"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-twitter"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-linkedin"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-instagram"></i>
+                                    </div>
+                                </a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <img src="img/Raju-Pathan.jpg" alt="Raju Pathan" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Raju Pathan</h3>
+                            <h5>Lead Graphics Designer</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit culpa deleniti impedit placeat suscipit nulla?</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-facebook"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-twitter"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-linkedin"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-instagram"></i>
+                                    </div>
+                                </a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <img src="img/nayem-hossain.jpg" alt="Arif Khan Saimoon" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Nayem Hossain</h3>
+                            <h5>Co-Graphics Designer</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit culpa deleniti impedit placeat suscipit nulla?</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-facebook"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-twitter"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-linkedin"></i>
+                                    </div>
+                                </a>    
+                                <a href="#">
+                                    <div class="p-3">
+                                        <i class="fa fa-instagram"></i>
+                                    </div>
+                                </a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Us-->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="info-contact">
+                        <h2 class="display-4">Leave A Message...</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quasi excepturi corporis amet esse in minima quibusdam mollitia ipsam hic!</p>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                </div>
+                                <input type="text" placeholder="Name" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fa fa-envelope"></i>
+                                    </span>
+                                </div>
+                                <input type="email" placeholder="Email" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fa fa-pencil"></i>
+                                    </span>
+                                </div>
+                                <textarea name="message" rows="5" class="form-control form-control-lg" placeholder="Type Your Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="button" value="Send" class="btn btn-lg text-light btn-block">
+                        </div>
+                    </form>                    
+                </div>
+                <div class="col  align-self-center">
+                    <img src="img/logo-banner-aks.jpg" alt="AKS" class="img-fluid d-none d-lg-block">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="py-4 box-bg text-center text-light">
+        <p>Copyright &copy; 2020 A.K.S</p>
+        <span>Designer By :<a href="https://www.fb.com/arif.saimoon/" class="text-light"> Āřïf Ķhąņ Sàīmøöņ</a></span>
+    </footer>
+
+    <!--Bootstrap js and popper and jquery -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
